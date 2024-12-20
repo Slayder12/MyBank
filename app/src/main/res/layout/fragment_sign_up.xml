@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_background"
+    tools:context=".fragments.SignUpFragment">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/nameTextTV"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/signup_text"
+            android:padding="40dp"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginStart="2dp"
+            android:layout_marginEnd="2dp"/>
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="185dp"
+            android:src="@drawable/baseline_account_circle_24" />
+
+
+        <EditText
+            android:id="@+id/userNameET"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="15dp"
+            android:background="@drawable/widget_border"
+            android:textColor="@color/black"
+            android:hint="@string/username_text2"
+            android:textAlignment="center" />
+
+
+        <EditText
+            android:id="@+id/passwordET"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="15dp"
+            android:background="@drawable/widget_border"
+            android:textColor="@color/black"
+            android:hint="@string/password_text2"
+            android:inputType="textPassword"
+            android:textAlignment="center" />
+
+
+        <Button
+            android:id="@+id/loginSignUpBTN"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="@string/signup_text2"
+            android:background="@drawable/widget_border"
+            android:textSize="18sp"
+            android:layout_margin="15dp" />
+
+    </LinearLayout>
+
+</RelativeLayout>

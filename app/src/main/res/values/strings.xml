@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">MyBank</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_text">Заголовок</string>
+    <string name="info_text">Информация</string>
+    <string name="begin_text">Начать</string>
+    <string name="signIn_taxr">SignIn</string>
+    <string name="username_text">Username</string>
+    <string name="password_text">Password</string>
+    <string name="signin_text">SignIn</string>
+    <string name="signup_text">SignUp</string>
+    <string name="username_text2">Username</string>
+    <string name="password_text2">Password</string>
+    <string name="signup_text2">SignUp</string>
+</resources>
